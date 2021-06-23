@@ -1,2 +1,2 @@
-# NLW6-ReactJS--LetMeAsk
+# NLW6-ReactJS-LetMeAsk
 Project React
