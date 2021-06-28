@@ -47,6 +47,10 @@ export function Home() {
       alert(`Hi ${user?.name}, This room does not exits.`);
       return;
     }
+    if(roomRef.val().endedAt){
+      alert('Room Already closed.');
+      return;
+    }
 
     history.push(`/room/${roomCode}`);
   
